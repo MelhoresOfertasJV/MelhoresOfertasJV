@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhores Ofertas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="mb-5" style="background-color: #4465A6;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <h1>Melhores Ofertas</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav  nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Amazon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./mercadolivre.html">Mercado Livre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./aliexpress.html">AliExpress</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./magalu.html">Magalu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shopee.html">Shopee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content-wrap" class="container d-flex justify-content-center align-items-center flex-wrap ">
+
+        <div class="bloco-padrao position-relative d-flex justify-content-center align-items-center mx-3 my-3 ">
+            <form id="form" class="px-3 py-5 d-flex flex-column justify-content-center align-items-center" action="https://api.staticforms.xyz/submit" method="post">
+                <div class="border-bottom">
+                    <h1>Entre em contato</h1>
+                </div>
+                <div class="py-4">
+                    <div class="form-floating mb-3">
+                        <input type="text" name="name" class="form-control" id="floatingInput" placeholder="Seu nome" required>
+                        <label for="floatingInput">Nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com" required>
+                        <label for="floatingInput">Email </label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="textarea form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px;" required></textarea>
+                        <label for="floatingTextarea2">Menssagem</label>
+                    </div>
+                    <input type="hidden" name="accessKey" value="d082260a-b29b-45ca-aa4e-5eb5a91b877e">
+                    <input type="hidden" name="redirectTo" value="./index.html">
+                    <div class="py-3">
+                        <input class="btn form-control" type="submit" value="Submit" style="background-color: #4465A6; color:white;">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer id="footer" class="text-center py-5 border-top">
+        <div class="fookl d-flex justify-content-around align-items-center flex-wrap">
+            <div class="foo-padrao my-3">
+              <h1>Melhores Ofertas</h1>
+            </div>
+            <div class="foo-padrao my-3">
+                <p>Copyright© 2023<br>Todos os direitos reservados<br> <a href="./contato.html">Entre em contato</a></p>
+            </div>
+            <div class="foo-padrao my-3">
+
+                    <button class="logoLojas">
+                        <img src="./img/logoAmazon-removebg-preview.png" alt="" width="100" height="100">
+                    </button>
+
+                    <button class="logoLojas">
+                        <img src="./img/marcadolivreLogo-removebg-preview.png" alt="" width="100" height="100">
+                    </button>
+
+                    <button class="logoLojas">
+                        <img src="./img/aliexpressLogo2-removebg-preview.png" alt="" width="100" height="100">
+                    </button>
+
+                    <button class="logoLojas">
+                        <img src="./img/magaluLogo2-removebg-preview.png" alt="" width="100" height="100">
+                    </button>
+ 
+                    <button class="logoLojas">
+                        <img src="./img/shopeeLogo2-removebg-preview.png" alt="" width="100" height="100">
+                    </button>
+
+            </div>
+        </div>
+        <div class="ultLinha">
+            <p>Canal do Youtube @Jv_indica</p>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</html>

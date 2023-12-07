@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9fd;
+}
+
+a {
+    text-decoration: none;
+}
+.navbar-brand{
+    font-family: 'Vina Sans', sans-serif;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+.nav-link{
+    font-size: 20PX;
+    color: #ffffff;
+}
+
+#content-wrap {
+    margin-top: 2.5rem;
+    /* altura do rodapé */
+}
+
+.bloco-padrao {
+    background: #f8f9fd;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bloco-padrao:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #f8f9fd;
+    z-index: -1;
+}
+
+.bloco-padrao::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #f8f9fd;
+    z-index: -1;
+    /* filter: blur(40px);*/
+}
+
+.bloco-padrao:before,
+.bloco-padrao::after {
+    background: linear-gradient(235deg, #4465A6, #ffffff, #4465A6);
+}
+
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #4465A6;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+    background-color: #4b77d8;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+    transform: translateY(-1px);
+}
+
+.button-5:active {
+    background-color: #2e3441;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.info {
+    color: #A3B2BF;
+}
+
+.title {
+    color: #6C7D8C;
+}
+
+.por {
+    color: #A3B2BF;
+}
+
+.preco {
+    color: #4465A6;
+}
+
+#footer {
+    margin-top:5em ;
+    background-color: #f8f9fd;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.foo-padrao {
+    width: 480px;
+}
+
+#titleFooter{
+    letter-spacing: 5px;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 80px;
+}
+
+#foo-desc{
+    color: #000;
+}
+
+.logoLojas {
+    border: none;
+    background-color: #f8f9fd;
+}
+
+.ultLinha {
+    color: #ffffff;
+    background-color: #2e3441;
+}
+
+.ultLinha a{
+    color: #ffffff;
+}
+
+.form-control{
+    width: 500px;
+}
+
+@media (max-width: 1600px) { 
+    .fookl{
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width: 450px) { 
+    .foo-padrao{
+        width: 300px;
+    }
+
+    #form{
+        width: 400px;
+    }
+
+    .form-control{
+        width: 320px;
+    }
+ }
+
+ @media (max-width: 400px) { 
+    #form{
+        width: 300px;
+    }
+
+    .form-control{
+        width: 260px;
+    }
+ }
